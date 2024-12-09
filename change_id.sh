@@ -1,7 +1,8 @@
 #!/bin/bash
 
+set -x
 # 配置文件路径
-STORAGE_FILE="$HOME/Library/Application Support/Cursor/User/globalStorage/storage.json"
+STORAGE_FILE="/Users/{你的mac用户名}/Library/Application Support/Cursor/User/globalStorage"
 
 # 生成随机 ID
 generate_random_id() {
